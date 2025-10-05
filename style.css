@@ -12,7 +12,7 @@
 
 html,
 body {
-  height: 135%;
+  height: 230.2%;
   width: 100%;
 }
 #main {
@@ -23,7 +23,7 @@ body {
   position: fixed;
   height: 50px;
   width: 100%;
-  background-color: rgb(30, 13, 3);
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -32,9 +32,35 @@ body {
 }
 
 #nav h5 {
-  color: #fff;
+  color: black;
   font-weight: 150;
   cursor: pointer;
+}
+
+#diwali {
+  width: 100%;
+  height: 630px;
+  background-color: #fff;
+  background-size: 1190px 600px; /* Background image width = 1250px */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/in/home/heroes/diwali-2025/images/hero_diwali_2025_endframe__kjxalx8t7ia2_medium.jpg);
+}
+
+#diwali > h1,
+h4 {
+  text-align: center;
+  color: #000000;
+  font-size: xx-large;
+  font-weight: 400;
+}
+
+#diwali > h1 {
+  padding-top: 24%;
+  font-size: 55px;
+  font-weight: 700;
+  font-weight: 700;
+  padding-bottom: 10px;
 }
 
 #pic {
@@ -101,6 +127,7 @@ button {
 
 #pic2 {
   margin-top: 15px;
+  margin-bottom: 15px;
   width: 100%;
   height: 600px;
   background-color: rgb(255, 255, 255);
@@ -124,4 +151,140 @@ h4 {
 #pic2 > h4 {
   font-size: 30px;
   font-weight: 300;
+}
+
+#parent {
+  margin-left: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.left {
+  height: 575px;
+  width: 49%;
+  background-color: rgba(203, 203, 204, 0.238);
+}
+
+.right {
+  height: 575px;
+  width: 49%;
+  background-color: rgba(203, 203, 204, 0.238);
+}
+#p1 {
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/home/ch/images/promos/iphone-17/promo_iphone_17__bhofuohbsu3m_medium.jpg);
+}
+
+#p2 {
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/home/ch/images/promos/icloud-plus/promo_icloud_plus__d4639vh3tz2a_medium.jpg);
+}
+
+#p3 {
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/in/home/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_medium.jpg);
+}
+
+#p4 {
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/home/ch/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_medium.jpg);
+}
+
+#p5 {
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/home/ch/images/promos/ipad-air/promo_ipad_air__bfbxzvw65c02_medium.jpg);
+}
+
+#p6 {
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/home/ch/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium.jpg);
+}
+
+.left > h2,
+h4 {
+  color: #000000;
+  text-align: center;
+}
+.left > h2 {
+  padding-top: 45px;
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+.left #all {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.right > h2,
+h4 {
+  color: #000000;
+  text-align: center;
+}
+.right > h2 {
+  padding-top: 45px;
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+.right #all {
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.btn1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 15px;
+  border: none;
+}
+#hh1 {
+  padding: 7px 2% 7px 2%;
+  border-radius: 40px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.blu-btn1 {
+  background-color: #0071e3;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hvr-btn1 {
+  border: 2px solid #0071e3;
+  background-color: inherit;
+  color: #0071e3;
+  cursor: pointer;
+}
+.hvr-btn1:hover {
+  background-color: #0071e3;
+  color: #f5f5f7;
+  transition: ease;
+}
+
+.footer {
+  margin-top: 10px;
+  background-color: #000000;
+  color: white;
+  padding: 10px 3px;
+  font-size: 11px;
+  justify-items: center;
 }
